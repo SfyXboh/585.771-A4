@@ -1,4 +1,8 @@
-.
+library(dplyr)
+library(tidyr)
+library(tibble)
+library(magrittr)
+library(ggplot2)
 
 # import data
 annualDosage <- read.csv("county_annual.csv"); annualDosage <- as_tibble(annualDosage);
