@@ -61,3 +61,7 @@ raw_average <-
   theme_minimal()
 
 raw_average
+
+# save the data to be loaded in python
+data <- as.data.frame(Annual)
+saveRDS(data, "data.rds")
